@@ -1,6 +1,14 @@
-# Welcome to your Expo app 👋
+# Speechmatics real-time transcription with Expo
+
+Sample project showcasing Speechmatics real-time speech to text within an Expo project.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+## Notes
+
+This project uses a native module `@speechmatics/expo-two-way-audio` to capture microphone data, so it cannot be used with Expo Go.
+
+Depending on your use case, you may prefer to use a different library for audio capture. Any library that allows capturing either 16 or 32 bit PCM data will work just as well.
 
 ## Get started
 
@@ -25,15 +33,6 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
 ## Learn more
 
