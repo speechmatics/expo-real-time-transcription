@@ -20,7 +20,7 @@
     "@react-navigation/native": "^7.0.14",
     "@speechmatics/auth": "^0.0.1",
     "@speechmatics/expo-two-way-audio": "^0.1.2",
-    "@speechmatics/real-time-client-react": "^1.0.0-rc.0",
+    "@speechmatics/real-time-client-react": "^1.0.0",
     "event-target-polyfill": "^0.0.4",
     "expo": "~52.0.42",
     "expo-blur": "~14.0.3",
